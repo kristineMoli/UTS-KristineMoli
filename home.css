@@ -1,0 +1,83 @@
+
+.sinopsis {
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    margin: 20px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.383) ,rgba(255, 255, 255, 0.383)),url("lucas.jpg");
+    background-size: cover;
+}
+h2{
+    color: rgb(6, 5, 5);
+    text-align: center;
+    margin: auto;
+}
+.header{
+    right: 100px;
+    height: 150px;
+    background-color: gray;
+}
+nav ul{
+    list-style: none;
+    position: relative;
+    text-align: right;
+    margin: auto;
+}
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    color: blueviolet;
+    
+}
+   
+nav ul li:hover a{
+    color:purple;
+}
+   
+   nav ul li a{
+       display: block;
+       padding: 25px;
+    color: lightblue;
+    text-decoration: none;
+   }
+
+#film1{
+    text-align: center;
+    border-style: outset;
+    height: 75px;
+    border-top: 5px solid black;
+}
+#film2{
+    text-align: center;
+    height: 75px;
+    border-style: outset;
+    border-top: 5px solid black;
+}
+#film3{
+    text-align: center;
+    border-style: outset;
+    height: 75px;
+    border-top: 5px solid black;
+}
+#film4{
+    text-align: center;
+    border-style: outset;
+    height: 75px;
+    border-top: 5px solid black;
+}
+#film5{
+    text-align: center;
+    border-style: outset;
+    height: 75px;
+    border-top: 5px solid black;
+}
+.navbar{
+    text-align: center;
+    background-color: rgb(48, 21, 1);
+}

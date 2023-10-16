@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.383) ,rgba(255, 255, 255, 0.383)),url("lucas.jpg");
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: righ;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    height: 50px;
+    font-family: arial;
+    text-align: right;
+    color: palevioletred;
+  }
+  nav ul {
+    list-style: none;
+    position: relative;
+  }
+  nav ul li {
+    text-align: center;
+    display: inline-block;
+    color: blueviolet;
+  }
+  
+  nav ul li:hover a {
+    color:purple
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 25px;
+    color: lightblue;
+    text-decoration: none;
+  }
+  
+  .tampung {
+    text-align: center;
+    background-color: thistle;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  h1 {
+    color: plum;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .foto img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px black;
+  }
+  
+  .bio h4 {
+    margin: 20px 0;
+  }
+  
+  .matakuliah {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table, th, td {
+    border: 1px solid blueviolet;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  a {
+    color: purple;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: plum;
+  }
+  
